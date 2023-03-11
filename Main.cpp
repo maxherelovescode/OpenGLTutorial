@@ -41,11 +41,13 @@ int main()
 	glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	// Swap frames to show colour
-	glfwSwapBuffers(window);
-
 	// Dont close window please
 	while (!glfwWindowShouldClose(window)) {
+
+		// Swap frames to show colour
+		glfwSwapBuffers(window);
+
+		// Washappening
 		glfwPollEvents();
 	}
 	
