@@ -1,8 +1,7 @@
+using namespace std;
 #include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
-using namespace std;
 
 // Vertex Shader source code
 const char* vertexShaderSource = "#version 330 core\n"
